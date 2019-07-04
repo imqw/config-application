@@ -1,0 +1,12 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/imqw/config-application.git
+          username: Wcbc0310@126.com
+          password: jiang4929
